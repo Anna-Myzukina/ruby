@@ -10,3 +10,9 @@ while i < 50
     puts "i: #{i}"
     i+= 10
 end
+
+i = 5
+until i == 0
+    puts "You can divide number #{i}"
+    i -= 1
+end
