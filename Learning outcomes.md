@@ -14,21 +14,22 @@ Numbers, Operators and Expressions:
 Questions:|   Unswers:  
 ----------|-----------------------
 What’s the difference between single and double quotes?|
-
 What is string interpolation?|
 What are escape characters? |
 What are line breaks? |
-How do you make other things into strings?
-How do you concatenate strings?
-How do you access a specific character or substring?
-How do you split up strings into arrays?
-How are strings and arrays similar?
-How do you get and clean up user input on the command line?
-What does it mean that strings are “mutable” and why care?
-What is a symbol?
-How is a symbol different from a string?
-What is a Regular Expression (RegEx)?
-How can you center or right-justify a string?
+How do you make other things into strings? |
+How do you concatenate strings? |
+How do you access a specific character or substring? |
+How do you split up strings into arrays?|
+How are strings and arrays similar?|
+How do you get and clean up user input on the command line?|
+What does it mean that strings are “mutable” and why care?|
+What is a symbol?|
+How is a symbol different from a string?|
+What is a Regular Expression (RegEx)?|
+How can you center or right-justify a string?|
+
+
 Arrays:
 What are three ways to create an array?
 How do you prepopulate the array with default data?
