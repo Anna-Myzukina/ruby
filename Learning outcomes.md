@@ -9,11 +9,15 @@ Numbers, Operators and Expressions:
 <li>What’s the difference between (1..3) and (1...3)?</li>
 <li>What are three ways to create a range?</li>
 </ol>
-Strings:
-What’s the difference between single and double quotes?
-What is string interpolation?
-What are escape characters?
-What are line breaks?
+<h2><a href="https://www.eriktrautman.com/posts/ruby-explained-strings">Strings:</a></h2> 
+
+Questions:|   Unswers:  
+----------|-----------------------
+What’s the difference between single and double quotes?|
+
+What is string interpolation?|
+What are escape characters? |
+What are line breaks? |
 How do you make other things into strings?
 How do you concatenate strings?
 How do you access a specific character or substring?
