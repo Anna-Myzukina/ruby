@@ -28,9 +28,27 @@ test_2 = (1 == 1) || (2 == 2)
 test_3 = (1 > 1) && (2 != 2)
 
 =end
+$logger = nil                 # Имя глобальной переменной 
+  class HelloPrinter            # Имя класса. 
+    HELLO_PREFIX = ’Hello, ’    # Имя константы. 
+   
+    @@all_names = Set.new       # Имя статического атрибута. 
+   
+    def initialize(name)        # Имя метода и имя параметра. 
+      @name = name              # Имя атрибута. 
+      @@all_names << name 
+    end 
+   
+    def print 
+      message = HELLO_PREFIX + @name    # Имя локальной переменной. 
+      $logger.log { 
+          ’Printing hello for ’ + @name + ’, message: ’ + message 
+      } 
+      puts message 
+    end 
+  end
 
-
-
+#---------------------------------------------------------------
 
 var = 9
 puts var
