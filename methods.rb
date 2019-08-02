@@ -39,3 +39,30 @@ def square(x)
   end
   
   square(4).times {puts "Hi"}
+
+  def calc(a, b) 
+    return  a*a, b*b, a*b  
+  end
+  puts  calc(3, 2).length
+
+
+
+=begin
+  Methods as Arguments
+
+We can also pass methods as arguments to other methods. 
+The returned values of those methods will be used as the actual values for the arguments, 
+for example:
+
+=end
+  def add(a, b)
+  a+b
+end
+
+def mult(a, b)
+  a*b
+end
+
+x = mult(add(2, 3), add(4, 7))
+puts x
+# outputs 55
