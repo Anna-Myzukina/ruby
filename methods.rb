@@ -22,3 +22,20 @@ end
 
 arr = squares(2, 3, 4)
 puts arr[0..1]
+
+=begin
+Chaining Methods
+
+Because all methods return a value, we can chain multiple methods together, 
+as well as chain methods with iterators.
+
+In the code above we chained our defined square method with the times iterator. 
+As square(4) will return 16, the loop will run and output "Hi" 16 times.
+
+For example:
+=end
+def square(x)
+    x*x
+  end
+  
+  square(4).times {puts "Hi"}
