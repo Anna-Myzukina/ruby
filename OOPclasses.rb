@@ -65,3 +65,14 @@ puts "I`m #{@age} old"
 end
 
 ob = Animal.new("Jacky", 3)
+
+#output Hi! My name is Jacky
+#I`m 3 old
+
+class Test
+  def initialize num
+    puts num%2
+  end
+end
+a = Test.new 9
+#output 1
