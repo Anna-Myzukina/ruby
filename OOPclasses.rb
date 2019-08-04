@@ -53,3 +53,15 @@ After the class and the initialize methods are defined, we can create objects
 of that class by using the new method. The method new is predefined in the
 Ruby library and does not need to be added to your class definition.
 =end
+class Animal
+  @age = 0
+  def initialize(name, age)
+    @name = name
+    @age = age
+puts "Hi! My name is #{@name}"
+puts "I`m #{@age} old"
+
+  end
+end
+
+ob = Animal.new("Jacky", 3)
